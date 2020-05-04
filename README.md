@@ -1,10 +1,22 @@
-ClojureScript and AWS SDK for Node example
+# ClojureScript and AWS SDK for Node example
 
-This is a basic example of how to use the AWS SDK for Node from ClojureScript, with shadow-cljs.
+This is a basic example of how to use the AWS SDK for Node from ClojureScript, with shadow-cljs. This project will load your credentials and list your S3 bucket info in the console.
 
 Project based on the [Node.js example for shadow-cljs](https://github.com/minimal-xyz/minimal-shadow-cljs-nodejs).
 
 ----
+
+### Requisites
+
+On the AWS console, create new access keys for an user (existing or new) that has read access to your S3 buckets.
+
+Save the credentials in your `~/.aws/credentials` file under an `example-profile` profile, like this:
+
+```
+[example-profile]
+aws_access_key_id = AAAAAAAAAAAAAAAAAAAAAAAA
+aws_secret_access_key = BBBBBBBBBBBBBBBBBBBB
+```
 
 ### Develop
 
