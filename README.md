@@ -1,5 +1,9 @@
+ClojureScript and AWS SDK for Node example
 
-Node.js example for [shadow-cljs](https://github.com/thheller/shadow-cljs)
+This is a basic example of how to use the AWS SDK for Node from ClojureScript, with shadow-cljs.
+
+Project based on the [Node.js example for shadow-cljs](https://github.com/minimal-xyz/minimal-shadow-cljs-nodejs).
+
 ----
 
 ### Develop
@@ -11,7 +15,7 @@ yarn
 yarn shadow-cljs watch app
 ```
 
-Start program:
+Start the program:
 
 ```bash
 node target/main.js

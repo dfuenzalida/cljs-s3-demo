@@ -1,4 +1,3 @@
-
 {:source-paths ["src"]
  :dependencies []
  :builds {:app {:target :node-script

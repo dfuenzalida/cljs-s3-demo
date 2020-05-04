@@ -1,19 +1,22 @@
 {
-  "name": "minimal-shadow-cljs-nodejs",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "watch": "shadow-cljs watch app",
-    "compile": "shadow-cljs compile app",
-    "build": "shadow-cljs release app"
-  },
-  "keywords": [],
-  "author": "jiyinyiyong",
-  "license": "MIT",
-  "devDependencies": {
-    "shadow-cljs": "^2.8.39",
-    "source-map-support": "^0.5.12",
-    "ws": "^7.0.1"
-  }
+   "name": "cljs-s3-demo",
+   "version": "0.1.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "watch": "shadow-cljs watch app",
+      "compile": "shadow-cljs compile app",
+      "build": "shadow-cljs release app"
+   },
+   "keywords": [],
+   "author": "dfuenzalida",
+   "license": "MIT",
+   "devDependencies": {
+      "shadow-cljs": "^2.8.39",
+      "source-map-support": "^0.5.12",
+      "ws": "^7.0.1"
+   },
+   "dependencies": {
+      "aws-sdk": "^2.668.0"
+   }
 }
